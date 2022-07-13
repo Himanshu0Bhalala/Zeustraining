@@ -1,0 +1,437 @@
+$greencolor: #3FD28B;
+$greycolor: #616161;
+
+header {
+    position: relative;
+    display: flex;
+    margin-top: 0;
+    height: 56px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    background: url("/images/headerpattern.png");
+    width: 100%;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0;
+    background-color: #EEEEEE;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+li {
+    display: inline;
+
+
+
+}
+li.hami{
+    display:block;
+    flex-direction: column;
+    
+    padding: 17px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+P>strong {
+    color: black;
+
+}
+
+p.h {
+    margin-top: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 476px 476px;
+    grid-template-rows: 246px 246px;
+    gap: 24px;
+    margin-bottom: 140px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 16px;
+    margin-top: 16px;
+    border-top: 2px solid #EEEEEE;
+}
+
+.profile {
+    border: 2px solid $greencolor;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+a {
+
+    margin-right: 32px;
+    font-size: 14px;
+    color: $greencolor;
+    padding-bottom: 8px;
+
+}
+
+.img {
+    margin-left: 24px;
+    margin-top: 10px;
+
+}
+
+.co {
+    font-size: 24px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 724px;
+}
+
+ul {
+    margin: 0;
+}
+
+.course {
+    margin: 24px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 974px;
+
+    background-color: $greencolor;
+}
+
+.coursein {
+    text-align: center;
+
+    width: 488px;
+
+    font-size: 16px;
+}
+
+.sort {
+    display: flex;
+    width: 976px;
+    height: 28px;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    border: 2px solid #EEEEEE;
+    margin-bottom: 16px;
+}
+
+.sort>p,
+label {
+    font-size: 12px;
+    color: #686868;
+
+
+}
+
+.sort>img {
+    padding-left: 24px;
+}
+
+.sortby {
+    width: 253px;
+    height: 20px;
+    border-width: 0 0 1px 0;
+    border-color: $greycolor;
+    font-size: 16px;
+    margin: 0 24px 0 6px;
+
+}
+
+.card {
+    float: right;
+
+}
+
+.not {
+    position: relative;
+    display: inline-block;
+}
+
+.not .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 0 0 4px 4px;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #2A7FF3;
+    color: white;
+}
+
+.not .badge1 {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    padding: 0 0 4px 4px;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: white;
+    color: black;
+}
+
+.card>.h {
+    font-size: 16px;
+    margin-bottom: 7px;
+    width: 250px;
+    font-weight: bold;
+
+    color: black;
+}
+
+.card>p {
+    font-size: 12px;
+    color: $greycolor;
+}
+
+p>span {
+    border-right: 1px solid $greycolor;
+    padding-right: 9px;
+    margin-right: 9px;
+}
+
+.card>select {
+    width: 256px;
+    height: 27px;
+    border-width: 0 0 1px 0;
+    border-color: $greycolor;
+    font-size: 16px;
+}
+
+.grid-card {
+    padding: 24px 16px 9px 24px;
+    background-color: white;
+}
+
+footer {
+
+    text-align: center;
+
+    margin-bottom: 0;
+
+    position: static;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.abouti {
+    padding-right: 10px;
+    color: $greencolor;
+    border-right: 1px solid $greycolor;
+    text-decoration: none;
+}
+
+.footer {
+    color: $greycolor;
+    height: 40px;
+    background: #E0E1E1 0% 0% no-repeat padding-box;
+    padding-top: 20px;
+
+
+}
+
+.footimg {
+    border-right: 1px solid $greycolor;
+    margin-right: 16px;
+    padding-right: 16px;
+}
+
+.ham {
+    display: none;
+}
+
+@media screen and (max-width:860px) {
+    li.menu:hover div.hambur{
+        display: block;
+    }
+    .head {
+        display: none;
+    }
+
+    .ham {
+        display: inline;
+    }
+
+    .grid {
+        grid-template-columns: 476px;
+        grid-template-rows: 246px;
+        margin-bottom: 140px;
+    }
+
+    .course {
+        width: 720px;
+    }
+
+    .sort {
+        width: 720px;
+    }
+
+    .coursein {
+        width: 360px;
+    }
+
+}
+
+$bordercolor: #2222221F;
+
+.noti-panel {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 315px;
+    height: 582px;
+    background-color: #ffffff;
+    right: 124px;
+
+    button {
+        border: none;
+        background: inherit;
+        height: 48px;
+
+        width: 50%;
+        border-right: 1px solid $bordercolor;
+    }
+
+
+}
+
+.button {
+
+
+    align-items: flex-end;
+    display: flex;
+}
+
+.bot {
+    border: none;
+    background: inherit;
+    height: 48px;
+
+    width: 100%;
+
+}
+
+.aleart-panel {
+    .notific {
+        height: 534px;
+        overflow: scroll;
+       
+    }
+}
+
+
+
+.name,
+.time {
+    font-size: 12px;
+}
+
+.announce {
+    font-size: 14px;
+
+}
+
+
+li.announcements:hover .noti-panel {
+
+    display: flex;
+    flex-direction: column;
+
+}
+li.aleart:hover .aleart-panel {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ti {
+    float: right;
+}
+
+.notific {
+    overflow: scroll;
+    height: 1000%;
+}
+
+.noti {
+
+    margin: 16px 0;
+    padding-bottom: 16px;
+    
+    border-bottom: 1px solid $bordercolor;
+
+    .info,
+    .name {
+        font-weight: 500;
+    }
+
+    p {
+        margin: 8px;
+    }
+}
+
+.name {
+    i {
+        color: $greycolor;
+    }
+}
+
+.time {
+    color: $greycolor;
+}
+
+.aleart-panel {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 315px;
+    height: 582px;
+    background-color: #ffffff;
+    right: 182px;
+    
+
+}
+.hambur{
+    width: 280px;
+    background: white;
+    right: 16px;
+    z-index: 1;
+    position: absolute;
+    display: none;
+    ul{
+        padding-left:16px;
+    }
+    
+}
+li.hami.in{
+    font-size: 14px;
+    color: $greencolor;
+    display: none;
+}
+.fav{
+    float: right;
+}
