@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/styles.css" />
+   
+    <link rel="stylesheet" href="/scss/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet" />
@@ -21,13 +22,13 @@
         </div>
         <div class="formcont">
         <div class="logform">
-            <div><p class="loghead"><i class="zmdi zmdi-arrow-left arrow"></i>Log in with Quantum</p></div>
+            <div><p class="loghead"><i role="button" tabindex="0" class="zmdi zmdi-arrow-left arrow"></i>Log in with Quantum</p></div>
             
             <form>
                 
-                <i id="distinct" class="zmdi zmdi-dot-circle zmdi-hc-2x radio"></i >Distinct
+                <i id="distinct" role="radio" aria-label="distinct" tabindex="0" aria-checked="true" class="zmdi zmdi-dot-circle zmdi-hc-2x radio"></i >Distinct
                 
-                <i id="independent" class="zmdi zmdi-circle-o zmdi-hc-2x radio" style="margin-left: 32px;"></i>Independent school<br />
+                <i id="independent" role="radio" aria-label="independent school" tabindex="0" aria-checked="false"  class="zmdi zmdi-circle-o zmdi-hc-2x radio" style="margin-left: 32px;"></i>Independent school<br />
                 <label for="state" class="select">State*</label><br />
                 <select id="state" name="state">
                     <option value="alabama" selected>Alabama</option>
@@ -48,7 +49,7 @@
                 <input type="password" name="Password" class="text pass" placeholder="Password" /><br />
                 <div class="forget"><a href="" class="forgett">FORGOT PASSWORD?</a></div><br />
                 
-                <i id="remember" class="zmdi zmdi-check-square zmdi-hc-2x checkbox"></i>Remember Me<br>
+                <i id="remember" role="checkbox" aria-checked="true" tabindex="0" class="zmdi zmdi-check-square zmdi-hc-2x checkbox"></i>Remember Me<br>
                 <div class="bot">
                 <input type="button" class="button" value="LOG IN" name="login" />
                 </div>
