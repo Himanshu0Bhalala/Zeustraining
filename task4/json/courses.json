@@ -1,0 +1,68 @@
+[
+    {
+        "topic": "Aceleration",
+        "img": "/images/image1.svg",
+        "sub": "physics",
+        "grade": "7+2",
+        "units": 4,
+        "lesons": 18,
+        "topics": 24,
+        "Prof": [],
+        "students": "50 students",
+        "Date": "21-Jan-2020 - 21-Aug-2020",
+        
+        "icons": [100, 100, 100, 100]
+
+
+    },
+
+    {
+        "topic": "Displacement, Velocity and Speed",
+        "img": "/images/image2.svg",
+        "sub": "physics",
+        "grade": "6+3",
+        "units": 2,
+        "lesons": 15,
+        "topics": 20,
+        "Prof": [],
+        "students": "",
+        "Date": "",
+        
+        "icons": [100, 50, 50, 100]
+
+
+    },
+    {
+        "topic": "Introduction to Biology: Micro organisms and how they affec...",
+        "img": "/images/image3.svg",
+        "sub": "Biology",
+        "grade": "6+3",
+        "units": 5,
+        "lesons": 16,
+        "topics": 22,
+        "Prof": ["All Classes"],
+        "students": "300 stusents",
+        "Date": "",
+        
+        "icons": [100, 50, 50, 100]
+
+
+    },
+    {
+        "topic": "Introduction to High School Mathematics",
+        "img": "/images/image4.svg",
+        "sub": "Mathematics",
+        "grade": "8+3",
+        "units": 2,
+        "lesons": 15,
+        "topics": 20,
+        "Prof": [],
+        "students": "44 Students",
+        "Date": "14-Oct-2019 - 20-Oct-2020",
+        
+        "icons": [100, 50, 50, 100]
+
+
+    }
+
+]
